@@ -2,7 +2,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: black;
     line-height: 1.6;
     padding: 20px;
 }
@@ -10,7 +10,7 @@ body {
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: black;
 }
 
 /* Questions section styling */
@@ -23,11 +23,11 @@ body {
 }
 
 .questions h4 {
-    color: #666;
+    color: black;
 }
 
 .questions img {
-    width: 100%; /* Make images responsive */
+    width: 60%; /* Make images responsive */
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
@@ -41,4 +41,7 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+}
+.mon {
+    display:none;
 }
